@@ -1,8 +1,14 @@
+[module]
+    replacements = 'github.com/slashformotion/hugo-tufte -> ../../'
+
+[[module.imports]]
+    path = "github.com/slashformotion/hugo-tufte"
+
 # Remove this if your site folder is not inside the theme folder
-themesDir = "../../"
+# themesDir = "../../"
 
 # Set your theme here
-theme = "hugo-tufte"
+# theme = "hugo-tufte"
 # The language of your website (see https://www.andiamo.co.uk/resources/iso-language-codes/ for reference)
 languageCode = "en-us"
 # The url of your website

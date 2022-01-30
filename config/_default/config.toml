@@ -1,0 +1,23 @@
+# Site configuration for the Hugo-Tufte demo site
+# --------------------------------------------------------------------------
+# IMPORTANT: You should not use this file as a template for configuration
+# as it does not contain all the required theme settings!
+#
+# Refer to the theme docs for configuration instructions if you're unsure.
+# https://slasformotion.github.io/hugo-tufte/docs/
+# --------------------------------------------------------------------------
+
+
+# Set your theme here
+theme = "hugo-tufte"
+# The language of your website (see https://www.andiamo.co.uk/resources/iso-language-codes/ for reference)
+languageCode = "en-us"
+# The url of your website
+baseurl = "https://slashformotion.github.io/hugo-tufte/"
+# The title of your website (shown on all the pages)
+title = "My awesome website "
+# Site wide kill switch for Latex support
+math = true
+# (If math is enabled) 
+## if "katex" is set to true katex will be used to render LaTex, if not MathJax will be used instead
+katex = true
