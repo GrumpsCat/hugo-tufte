@@ -33,3 +33,5 @@ fields:
     max: 
     labelField: 
   label: Field
+pages:
+- content/February 12, 2022.md
