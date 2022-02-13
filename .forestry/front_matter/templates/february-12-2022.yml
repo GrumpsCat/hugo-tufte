@@ -1,4 +1,27 @@
 ---
 label: February 12, 2022
 hide_body: false
-fields: []
+fields:
+- name: text_field
+  type: text
+  config:
+    required: false
+  label: Text Field
+- name: text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text Area
+- name: date_field
+  type: datetime
+  label: Date field
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
